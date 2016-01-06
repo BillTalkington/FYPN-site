@@ -1,28 +1,20 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
+.header {
+    display: table;
     position: relative;
+    width: 100%;
+    height: 100%;
+    // background-image: url("https://volny.github.io/stylish-portfolio-jekyll/img/bg.jpg") no-repeat center center scroll;
+    // background-image: url("../img/img.jpg") no-repeat center center scroll;        background-image: url("../img/img.jpg") no-repeat center center scroll;
+    background: url(../img/img.jpg);
+
+    background-size: cover;
+    // Positioning context for the mobile navigation icon
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
 
 .site-nav {
     float: right;
