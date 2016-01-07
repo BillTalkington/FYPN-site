@@ -9,16 +9,16 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
+owner: Fayette Young Professionals Network
+email: info@fayetteyoungprofessionals.org
+facebook_username: 
 twitter_username:
 github_username:
 address:
-  - line:
-  - line:
+  - line: 65 W Main St. Suite 107 
+  - line: Uniontown, PA 15401
   # Feel free to add more lines here 
-telephone:
+telephone: (123)-456-7890
 copyright:
 
 # API settings
